@@ -107,9 +107,9 @@ body {
 }
 
 #bg-vid {
-  border: 5px solid #000;
+  
   height: 100vh;
-  width: 98.79vw;
+  width: 100vw;
 }
 
 video {
