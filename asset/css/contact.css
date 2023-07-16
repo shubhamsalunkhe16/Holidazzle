@@ -25,6 +25,14 @@ body {
   padding-top: 25px;
 }
 
+.footer a,
+.footer a:hover,
+.footer a:visited,
+.footer a:link {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .icons a {
   padding: 0px 10px;
 }
