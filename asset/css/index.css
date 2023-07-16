@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-.text-banner {
+.home_container .text-banner {
   position: absolute;
   z-index: 10;
   top: 35%;
@@ -17,7 +17,7 @@ body {
   margin-right: 5%;
 }
 
-.text-banner h3 {
+.home_container .text-banner h3 {
   font-size: 4em;
   font-weight: 700;
   background: linear-gradient(to left, #ff8800, rgb(224, 13, 190));
@@ -28,7 +28,7 @@ body {
   margin-top: 10px;
 }
 
-.text-banner p {
+.home_container .text-banner p {
   font-size: 1.1em;
   color: #fff;
   margin: 20px 0;
@@ -36,7 +36,7 @@ body {
   max-width: 700px;
 }
 
-#bg-vid {
+.home_container #bg-vid {
   height: 100vh;
   min-height: 400px;
   width: 100%;
@@ -47,13 +47,13 @@ body {
   box-shadow: none !important;
 }
 
-video {
+.home_container video {
   overflow: hidden;
   object-fit: cover;
   object-position: center;
 }
 
-.overlayLeftBtn {
+.home_container .overlayLeftBtn {
   padding: 3px 6px;
   background-color: hsl(222, 100%, 95%);
   border-radius: 4px;
@@ -61,7 +61,7 @@ video {
   overflow: hidden;
 }
 
-.overlayLeftBtn span {
+.home_container .overlayLeftBtn span {
   color: #ff9800;
   position: relative;
   z-index: 1;
@@ -69,7 +69,7 @@ video {
   font-size: 1.1rem;
 }
 
-.overlayLeftBtn::before {
+.home_container .overlayLeftBtn::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -82,15 +82,15 @@ video {
   transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
 }
 
-.overlayLeftBtn:hover span {
+.home_container .overlayLeftBtn:hover span {
   color: hsl(222, 100%, 95%);
 }
 
-.overlayLeftBtn:hover::before {
+.home_container .overlayLeftBtn:hover::before {
   transform: translate(0, -50%);
 }
 
-.slideUpBtn {
+.home_container .slideUpBtn {
   padding: -1px 24px;
   background-color: transparent;
   border: 2px solid orange;
@@ -100,18 +100,18 @@ video {
   transition: all 0.5s cubic-bezier(1, 0.15, 0.34, 0.92);
 }
 
-.slideUpBtn span {
+.home_container .slideUpBtn span {
   display: inline-block;
   transition: inherit;
   color: hsl(46, 84%, 58%);
 }
 
-.slideUpBtn:hover span {
+.home_container .slideUpBtn:hover span {
   opacity: 0;
   transform: translateY(-100%);
 }
 
-.slideUpBtn::before {
+.home_container .slideUpBtn::before {
   content: "";
   background-color: orange;
   height: 100%;
@@ -124,7 +124,7 @@ video {
   transition: transform 0.5s cubic-bezier(1, 0.15, 0.34, 0.92);
 }
 
-.slideUpBtn::after {
+.home_container .slideUpBtn::after {
   content: "Hurry up!";
   align-items: center;
   display: flex;
@@ -138,30 +138,30 @@ video {
   width: 100%;
 }
 
-.slideUpBtn:hover::before {
+.home_container .slideUpBtn:hover::before {
   transform: translateY(0) scale(3);
   transition-delay: 0.025s;
 }
 
-.slideUpBtn:hover::after {
+.home_container .slideUpBtn:hover::after {
   opacity: 1;
   color: hsl(222, 100%, 95%);
   transform: translateY(0);
 }
 
-.card-img-top {
+.home_container .card-img-top {
   object-fit: cover;
   object-position: center;
 }
 
-.card-info {
+.home_container .card-info {
   background-color: rgba(210, 210, 210, 0.8);
   color: black;
   box-shadow: 5px 5px 8px grey;
   transition: 500ms;
 }
 
-.card-info:hover {
+.home_container .card-info:hover {
   transform: scale(1.05);
   cursor: pointer;
   background-color: orange;
@@ -170,12 +170,12 @@ video {
   transition: 500ms;
 }
 
-.carousel-inner img {
+.home_container .carousel-inner img {
   object-fit: cover;
   object-position: center;
 }
 
-.footer {
+.home_container .footer {
   background-image: linear-gradient(rgb(20 20 20 / 80%), rgb(235 203 171 / 55%)),
     url(../photos/pexels-snapwire-699558.jpg);
   background-size: cover;
@@ -183,28 +183,28 @@ video {
   box-shadow: none !important;
 }
 
-.footer-content {
+.home_container .footer-content {
   padding-top: 25px;
 }
 
-.footer a,
-.footer a:hover,
-.footer a:visited,
-.footer a:link {
+.home_container .footer a,
+.home_container .footer a:hover,
+.home_container .footer a:visited,
+.home_container .footer a:link {
   color: #fff;
   text-decoration: underline;
 }
 
-.icons a {
+.home_container .icons a {
   padding: 0px 10px;
 }
 
-.icons {
+.home_container .icons {
   margin: auto;
 }
 
 @media (max-width: 830px) and (min-width: 660px) {
-  .text-banner {
+  .home_container .text-banner {
     position: absolute;
     z-index: 10;
     top: 30%;
@@ -212,15 +212,15 @@ video {
     margin-right: 5%;
   }
 
-  .text-banner h3 {
+  .home_container .text-banner h3 {
     font-size: 3.5em;
   }
-  .text-banner p {
+  .home_container .text-banner p {
     font-size: 1.2em;
   }
 }
 @media (max-width: 660px) and (min-width: 550px) {
-  .text-banner {
+  .home_container .text-banner {
     position: absolute;
     z-index: 10;
     top: 25%;
@@ -228,15 +228,15 @@ video {
     margin-right: 5%;
   }
 
-  .text-banner h3 {
+  .home_container .text-banner h3 {
     font-size: 3.5em;
   }
-  .text-banner p {
+  .home_container .text-banner p {
     font-size: 1.2em;
   }
 }
 @media (max-width: 550px) and (min-width: 450px) {
-  .text-banner {
+  .home_container .text-banner {
     position: absolute;
     z-index: 10;
     top: 25%;
@@ -244,15 +244,15 @@ video {
     margin-right: 5%;
   }
 
-  .text-banner h3 {
+  .home_container .text-banner h3 {
     font-size: 3em;
   }
-  .text-banner p {
+  .home_container .text-banner p {
     font-size: 1.2em;
   }
 }
 @media (max-width: 450px) {
-  .text-banner {
+  .home_container .text-banner {
     position: absolute;
     z-index: 10;
     top: 18%;
@@ -260,7 +260,7 @@ video {
     margin-right: 5%;
   }
 
-  .text-banner h3 {
+  .home_container .text-banner h3 {
     font-size: 2.7em;
     font-weight: 700;
   }
@@ -269,7 +269,7 @@ video {
     font-size: 13px;
   }
 
-  .overlayLeftBtn span {
+  .home_container .overlayLeftBtn span {
     font-size: 1.1rem;
   }
 }

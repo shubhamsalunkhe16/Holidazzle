@@ -9,11 +9,11 @@ body {
   overflow-x: hidden;
 }
 
-.row {
-  margin: 30px 0px 10px 0px;
+.about_container .row {
+  margin: 28px 0px 10px 0px;
 }
 
-.footer {
+.about_container .footer {
   background-image: linear-gradient(rgb(20 20 20 / 80%), rgb(235 203 171 / 55%)),
     url(../photos/pexels-snapwire-699558.jpg);
   background-size: cover;
@@ -22,23 +22,23 @@ body {
   background-repeat: no-repeat;
 }
 
-.footer-content {
+.about_container .footer-content {
   padding-top: 25px;
 }
 
-.footer a,
-.footer a:hover,
-.footer a:visited,
-.footer a:link {
+.about_container .footer a,
+.about_container .footer a:hover,
+.about_container .footer a:visited,
+.about_container .footer a:link {
   color: #fff;
   text-decoration: underline;
 }
 
-.icons a {
+.about_container .icons a {
   padding: 0px 10px;
 }
 
-.icons {
+.about_container .icons {
   margin: auto;
 }
 
