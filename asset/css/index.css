@@ -2,9 +2,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgba(210, 210, 210, 0.2);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .text-banner {
