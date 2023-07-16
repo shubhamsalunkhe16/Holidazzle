@@ -106,9 +106,13 @@ body {
 }
 
 #bg-vid {
-  
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none !important;
 }
 
 video {
@@ -244,7 +248,7 @@ video {
     url(../photos/pexels-snapwire-699558.jpg);
   background-size: cover;
   background-position: bottom;
-  box-shadow: 5px 5px 8px grey;
+  box-shadow: none !important;
 }
 
 .footer-content {
